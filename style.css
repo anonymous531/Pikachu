@@ -1,0 +1,80 @@
+*{margin:0;padding:0}
+*{box-sizing: border-box;}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100vw;
+}
+.wrapper{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+}
+.code-wrapper{
+    width:100%;
+    height:50%;
+    position: relative;
+    overflow: auto;
+}
+.code-wrapper #code{
+    width:100%;
+    padding:15px;
+    
+}
+.btn-wrapper{
+    position: fixed;
+    right:2%;
+    top:0;
+    display:flex;
+    flex-direction: column;
+}
+.btn-wrapper .speedButton.active{
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.6)
+}
+.btn-wrapper > input{
+    margin:10px;
+    padding:7px;
+    border:none;
+    outline: none;
+    font-family: "微软雅黑";
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic-wrapper{
+    height:175px;
+    width:100%;
+    position: relative;
+}
+.picture{
+    width:100%;
+    height:50%;
+}
+.eyes{
+    width:49px;
+    height:49px;
+    position: absolute;
+}
+.face{
+    width:68px;
+    height:68px;
+}
+.upperLip{
+    width:80px;
+    height:20px;
+    z-index:1;
+}
+.lowerLip-wrapper{
+    width: 200px;
+    height: 110px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 65px;
+    overflow: hidden;
+}

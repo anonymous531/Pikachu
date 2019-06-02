@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的皮卡丘</title>
+    <link rel="stylesheet" href="./vendor/prism/prism.css">
+    <link rel="stylesheet" href="./style.css">
+    <style id="styleTag"></style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="code-wrapper">
+            <pre id="code"></pre>
+            <div class="btn-wrapper">
+                <input type="button" value="慢速" class="speedButton" data-speed="slow">
+                <input type="button" value="中速" class="speedButton active" data-speed="normal">
+                <input type="button" value="快速" class="speedButton" data-speed="fast">
+            </div>
+        </div>
+        <div class="picture">
+            <div class="pic-wrapper">
+                <div class="nose"></div>
+                <div class="eyes leftEye"></div>
+                <div class="eyes rightEye"></div>
+                <div class="face leftFace"></div>
+                <div class="face rightFace"></div>
+                <div class="upperLip left"></div>
+                <div class="upperLip right"></div>
+                <div class="lowerLip-wrapper">
+                    <div class="lowerLip"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./vendor/prism/prism.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
